@@ -1,0 +1,29 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore any log files
+*.log
+.metadata/
+# Build directories
+Backend/bin/
+Backend/target/
+
+# IDE-related files
+.idea/
+.vscode/
+
+# Maven wrapper files
+Backend/mvnw
+Backend/mvnw.cmd
+
+# Logs and temporary files
+Backend/logs/
+Backend/temp/
+
+# Environment-specific configuration files
+Backend/.env
+Backend/src/main/resources/application.properties
+
